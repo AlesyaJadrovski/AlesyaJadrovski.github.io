@@ -25,7 +25,7 @@ li {
     background: #8656A0;
 }
 
-.eye {
+.eye_head {
     position: absolute;
     margin: 100px;
     width: 100px;
@@ -35,7 +35,7 @@ li {
     border-radius:  75% 15%;
 }
 
-.pupil {
+.pupil_head {
     margin-left: 20px;
     margin-top: 30px;
     display: block;
@@ -46,7 +46,7 @@ li {
     border-radius: 50%;
 }
 
-.bar {
+.bar_leg {
     line-height: 50px;
     vertical-align: center;
     color: black;
@@ -55,11 +55,11 @@ li {
     margin-right: -4px;
 }
 
-.bar:last-child {
+.bar_leg:last-child {
     border-radius: 0 50px 50px 0;
 }
 
-.skill {
+.skill_leg {
     display: inline-block;
     line-height: 50px;
     margin-right: -4px;
@@ -77,56 +77,56 @@ li {
     white-space: nowrap;
 }
 
-.now {
+.now_leg {
     background: #8656a0d1;
 }
 
-.future {
+.future_leg {
     width: 40%;
     background-color: #8656a099;
 }
 
-.bar-0 {
+.bar-0_leg {
     width: 5%;
 }
 
-.bar-10 {
+.bar-10_leg {
     width: 10%;
 }
 
-.bar-20 {
+.bar-20_leg {
     width: 20%;
 }
 
-.bar-30 {
+.bar-30_leg {
     width: 30%;
 }
 
-.bar-40 {
+.bar-40_leg {
     width: 40%;
 }
 
-.bar-50 {
+.bar-50_leg {
     width: 50%;
 }
 
-.bar-60 {
+.bar-60_leg {
     width: 60%;
 }
 
-.bar-70 {
+.bar-70_leg {
     width: 70%;
 }
 
-.bar-80 {
+.bar-80_leg {
     width: 80%;
 }
 
-.bar-90 {
+.bar-90_leg {
     width: 90%;
 }
 
-.bar-100 {
+.bar-100_leg {
     width: 100%;
 }
 
@@ -135,7 +135,7 @@ li {
     text-align: center;
 }
 
-.skill-now {
+.skill-now_help {
     background: #8656a0d1;
     height: 50px;
     display: inline-block;
@@ -143,7 +143,7 @@ li {
     width: 200px;
 }
 
-.skill-future {
+.skill-future_help {
     background-color: #8656a099;
     height: 50px;
     display: inline-block;
